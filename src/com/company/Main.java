@@ -2,6 +2,7 @@ package com.company;
 
 public class Main {
 
+    // Entry point of the system
     public static void main(String[] args) {
 
         Addition add = new Addition();
