@@ -12,16 +12,16 @@ public class Main {
     }
 
 
-    public interface Operations{
+    public interface Operation {
 
         int a = 0;
         int b =0;
 
-        public abstract int calc(int a, int b);
+        int calc(int a, int b);
     }
 
 
-    public static class Addition implements Operations{
+    public static class Addition implements Operation {
 
 
         @Override
